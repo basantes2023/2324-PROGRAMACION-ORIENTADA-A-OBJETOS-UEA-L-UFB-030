@@ -19,9 +19,21 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     opciones = {
-        '1': 'Unidad 1/1.2. Tecnicas de Programacion/1.2-1. Ejemplo Tecnicas de Programacion.py',
-        # Agrega aquí el resto de las rutas de los scripts
-    }
+        '1': 'Unidad 1/1.2. Técnicas de programación/Encapsulación.py',
+        '2': 'Unidad 1/1.2. Técnicas de programación/Herencia.py',
+        '3': 'Unidad 1/1.2. Técnicas de programación/abstracción.py',
+        '4': 'Unidad 1/1.2. Técnicas de programación/polimorfismo.py',
+        '5': 'Unidad 1/2.1. Programación tradicional frente a POO/Temperatura P. Tradicional.py',
+        '6': 'Unidad 1/2.1. Programación tradicional frente a POO/Temperatura POO.py',
+        '7': 'Unidad 1/2.2. Características de la POO/Reservas Pasajes Aéreos.py',
+        '8': 'Unidad 1/2.2. Características de la POO/Sistema de Gestión de Empleados.py',
+        '9': 'Unidad 1/2.2. Características de la POO/TiendaOnline.py',
+        '10': 'Unidad 2/1.1. Tipos de Datos e Identificadores/Tipos de datos, Identificadores.py',
+        '11': 'Unidad 2/1.2. Clases, Objetos, Herencia, Encapsulamiento y Polimorfismo/_APLIC~1.PY',
+        '12': 'Unidad 2/2.1. Constructores y Destructores/Implementación de Constructores y Destructores.py',
+               
+        
+            }
 
     while True:
         print("\nMenu Principal - Dashboard")
